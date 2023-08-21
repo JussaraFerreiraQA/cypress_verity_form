@@ -8,25 +8,24 @@ Cypress.Commands.add('formAccess', () => {
       cy.get(Form.INPUT.CAMP)
             .contains('Vamos conversar')
 
-      cy.get(Form.INPUT.NAME) //nome 
+      cy.get(Form.INPUT.NAME)
             .type('Teste')
 
-      cy.get(Form.INPUT.EMAIL)//pode confirmar o nome do campo 'Email'
+      cy.get(Form.INPUT.EMAIL)
             .type('fake@email.com')
 
-      cy.get(Form.INPUT.TELEPHONE)//telefone
+      cy.get(Form.INPUT.TELEPHONE)
             .type('1199999999')
 
-      cy.get(Form.INPUT.MESSAGE)//conte-nos o desafio
+      cy.get(Form.INPUT.MESSAGE)
             .type('Quero ser Veriter')
 
       cy.get(Form.INPUT.CHECK)
             .not('[disabled]')
             .check()
-            .should('be.checked')//aceito receber mensagens ticar
-      // .click()
+            .should('be.checked')
 
       cy.get(Form.BUTTON.SUBMIT)
             .contains('Enviar')
-            .click()//clicar no botão enviar
+            .click()
 })
