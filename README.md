@@ -1,7 +1,7 @@
-# Projeto de Testes com Cypress
+# Projeto Verity Form de Testes com Cypress 
 [![Cypress](https://img.shields.io/npm/v/cypress?color=33ff99&label=cypress&logo=cypress&style=for-the-badge)](https://www.cypress.io)
 
-Este é um projeto base para realizar testes automatizados utilizando o framework de testes Cypress no Visual Studio Code (VSCode).
+Este é um projeto form de testes automatizados utilizando o framework de testes Cypress no Visual Studio Code (VSCode).
 
 ## Requisitos
 
